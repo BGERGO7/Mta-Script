@@ -5,3 +5,9 @@
     end
     
    addEventHandler("Player spawn", getRootElement() , onPlayerSpawnHandler)
+
+    function sayHello()
+        outputChatBox("Hello")
+    end 
+
+    addCommandHandler("hello", sayHello)
