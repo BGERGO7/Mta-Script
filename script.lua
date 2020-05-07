@@ -11,3 +11,9 @@
     end 
 
     addCommandHandler("hello", sayHello)
+
+    function gasBar()
+        dxDrawRectangle(200-300-30, 200, 300, 100, 0x7F000000)
+    end 
+
+    addEventHandler("gasBar", root, gasBar)
